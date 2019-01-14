@@ -4,5 +4,5 @@ const onLoad = () => {
   setTimeout(() => {
     const loadDiv = document.getElementById('loader-first');
     loadDiv.style.display = 'none';
-  }, 1500);
+  }, 300);
 }
